@@ -147,9 +147,11 @@ curl -X GET http://127.0.0.1:5000/tasks
 ## 📚 Documentação da API
 
 ### 🔹 Swagger (arquivo)
-./docs/swagger.json
+* ./docs/swagger.json
 
 ### 🔹 Postman
+
+- 🔗 Acessar coleção online: [Clique aqui](https://lukasjean745-1800510.postman.co/workspace/Praticando-API~e9ddf343-d561-45be-849f-555cf1c63683/collection/53388125-37b68ec2-bb36-4a6f-b7e6-fdc8549a817b?action=share&creator=53388125)
 
 - 📥 Download da collection: ./docs/postman_collection.json
 
