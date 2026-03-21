@@ -8,8 +8,8 @@ Este projeto é uma API RESTful simples para gerenciamento de tarefas (to-do lis
 
 * Python 3
 * Flask
-* Flask-RESTful (opcional)
-* SQLite (ou estrutura em memória)
+* pytest
+* 
 
 ---
 
@@ -49,7 +49,7 @@ python -m venv venv
 **Windows:**
 
 ```bash
-venv\\Scripts\\activate
+venv\Scripts\activate
 ```
 
 **Linux/Mac:**
@@ -102,13 +102,13 @@ http://127.0.0.1:5000
 
 ### 🔹 Buscar uma tarefa por ID
 
-**GET /tasks/<id>**
+**GET /tasks/int:id**
 
 ---
 
 ### 🔹 Atualizar uma tarefa
 
-**PUT /tasks/<id>**
+**PUT /tasks/int:id**
 
 ```json
 {
@@ -122,7 +122,7 @@ http://127.0.0.1:5000
 
 ### 🔹 Deletar uma tarefa
 
-**DELETE /tasks/<id>**
+**DELETE /tasks/int:id**
 
 ---
 
