@@ -1,13 +1,11 @@
 from flask import Flask, request
 from models.task import Task
-from flasgger import Swagger
 
 app = Flask(__name__)
-Swagger(app, template_file="swagger.yaml")
 
 tasks = []
 
-@app.route("/tasks", methods=["POST"])
+@app.route("/tasks", methods=["GET"])
 def create_task():
     data = request.get_json()
     
