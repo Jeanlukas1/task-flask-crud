@@ -9,7 +9,9 @@ Este projeto é uma API RESTful simples para gerenciamento de tarefas (to-do lis
 * Python 3
 * Flask
 * pytest
-* 
+* Git
+* Postman
+* Swagger
 
 ---
 
