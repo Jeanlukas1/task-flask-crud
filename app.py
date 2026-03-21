@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flasgger import Swagger
 from models.task import Task
 
 app = Flask(__name__)

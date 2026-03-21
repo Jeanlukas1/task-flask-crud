@@ -144,6 +144,19 @@ curl -X GET http://127.0.0.1:5000/tasks
 
 ---
 
+## 📚 Documentação da API
+
+
+### 🔹 Swagger UI
+http://127.0.0.1:5000/apidocs
+
+### 🔹 Swagger (arquivo)
+./docs/swagger.json
+
+### 🔹 Postman
+
+- 📥 Download da collection: ./docs/postman_collection.json
+
 ## 🧠 Conceitos Praticados
 
 * Arquitetura REST
